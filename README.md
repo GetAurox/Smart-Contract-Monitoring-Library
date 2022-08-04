@@ -1,5 +1,11 @@
 # Aurox smart contract monitoring library
 
+## Summary
+
+This library queries the FIO blockchain to return all addresses belonging to major decentralized protocols. Aurox leverages [FIO's NFT signatures](https://fioprotocol.io/nft-signatures/) functionality to keep track of trustworthy contracts in a decentralized manner. 
+
+The purpose of this library is to create a central, yet decentralized, point of contact to validate whether certain contracts are trustworthy or not. This same library is being utilized by the Aurox Wallet to warn and protect users when they are interacting with scam contracts. 
+
 ## Usage
 
 ```
